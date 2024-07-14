@@ -1,9 +1,15 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+    import TheHeader from '../components/TheHeader.vue';
+    import MyPresentation from '@/components/MyPresentation.vue';
+    import ContactMe from '../components/ContactMe.vue';
+    import TheFooter from '../components/TheFooter.vue';
+    import MyCreations from '@/components/MyCreations.vue';
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+    <TheHeader/>
+    <MyPresentation /> 
+    <MyCreations/>
+    <ContactMe />
+    <TheFooter/>
 </template>
