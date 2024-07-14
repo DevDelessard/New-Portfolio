@@ -13,15 +13,15 @@ import { RouterLink } from "vue-router";
             <h2>
                 Developpeur Web Junior
             </h2>
-        <div class="text1">
-            Je suis un développeur web junior passionné par la création de sites web et d'applications web dynamiques et performantes. 
-            <br>
-            Avec mes 31 ans et ma formation de developpeur Web du centre européen de formation, j'ai acquis une solide base de compétences en langages web et outils de développement. 
-            <br>
-            J'apprend rapidement et je suis toujours à l'affût des nouvelles technologies.
+            <div class="text1">
+                Je suis un développeur web junior passionné par la création de sites web et d'applications web dynamiques et performantes. 
+                <br>
+                Avec mes 31 ans et ma formation de developpeur Web du centre européen de formation, j'ai acquis une solide base de compétences en langages web et outils de développement. 
+                <br>
+                J'apprend rapidement et je suis toujours à l'affût des nouvelles technologies.
+            </div>
         </div>
     </div>
-</div>
 </template>
 
 <style scoped>

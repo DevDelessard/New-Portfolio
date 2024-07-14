@@ -63,12 +63,16 @@
                         <h2>Diplômes/Formations</h2>
                         <h3>Formation Developpeur Web</h3>
                         <p>Du 30/01/2024 au 30/01/2025</p>
-                        <li>Centre Européen de formation</li>
-                        <li>Programmation front-end & back-end, UX Design, IA, Cybersecurité</li>
+                        <ul>
+                            <li>Centre Européen de formation</li>
+                            <li>Programmation front-end & back-end, UX Design, IA, Cybersecurité</li>
+                        </ul>
                         <h3>DUT Genie Thermique et Energies</h3>
                         <p>Du 15/09/2016 au 30/06/2018</p>
-                        <li>IUT Cherbourg-Manche</li>
-                        <li>Thermodynamique, Mecanique des fluides, Electricité, Physique</li>
+                        <ul>
+                            <li>IUT Cherbourg-Manche</li>
+                            <li>Thermodynamique, Mecanique des fluides, Electricité, Physique</li>
+                        </ul>
                     </div>
                     <div class="competences">
                         <h2>Compétences</h2>

@@ -59,22 +59,18 @@
     <div id="my_windows">
             <h1>MES REALISATIONS</h1>
         <div id="column">
-            <section v-for="creation in windows":key="creation.id" class="ensemble1">
+            <section v-for="creation in windows" :key="creation.id" class="ensemble1">
                 <div class="BoxT">
-                <h3>{{ creation.nom }}</h3>
+                    <h3>{{ creation.nom }}</h3>
                 </div>
                 <button @click="openModal(creation)">
                     <img :src="`./src/assets/img/${creation.image}.jpg`" :alt="`${creation.image}`">
                 </button>
                 <MyModal :currentProject="selectedProject" :isOpen="isModalOpened" @modal-close="closeModal" name="first-modal" id="Modal1">
-                    <template #header>
-                    </template>
-                    <template #content>
-                    </template>
-                    <template #link>
-                    </template>
-                    <template #footer>
-                    </template>
+                    <template #header></template>
+                    <template #content></template>
+                    <template #link></template>
+                    <template #footer></template>
                 </MyModal>
             </section>
         </div>

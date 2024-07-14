@@ -8,11 +8,6 @@
             <img class="photo" src="@/assets/img/AWS.jpg" alt="Logo de la page">
         </a>
         <h1>{{title}}</h1>
-        <a href="#" @click="toggle" class="toggle-button">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </a>
         <nav>
             <ul>
                 <li>
@@ -122,21 +117,5 @@ header ul li a {
     );
     -webkit-background-clip: text;
     background-clip: text;
-}
-.toggle-button{
-    position: absolute;
-    display: none;
-    top:.75rem;
-    right: 1rem;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 20px;
-}
-.toggle-button .bar{
-    height: 3px;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
 }
 </style>
